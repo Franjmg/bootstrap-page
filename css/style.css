@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables CSS */
+root{
+    --title-color: #B9FAF8;
+    --text-color: #000;
+    --conteiner-color: #A663CC;
+    --primary-color: #6F2DBD;
+    --secundaty-color: #B8D0EB;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Nav */
+.navbar-brand{
+    color: var(--primary-color);
+}
+
+.nav-link{
+    color: var(--primary-color);
+}
+
+/* Home */
+.banner-image1{
+    background-image: url(../media/img/home-1.jpg);
+    background-size: cover;
+}
+
+.banner-image2{
+    background-image: url(../media/img/home-2.jpg);
+    background-size: cover;
+}
+
+.banner-image3{
+    background-image: url(../media/img/home-3.jpg);
+    background-size: cover;
+}
+
+/* About */
+
+
+/* Footer */
+footer{
+    background-color: #A663CC;
+}
+
+a{
+    text-decoration: none;
+    color: #B8D0EB;
+}
+
+.icons{
+    font-size: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
