@@ -9,7 +9,8 @@ root{
     --text-color: #000;
     --conteiner-color: #A663CC;
     --primary-color: #6F2DBD;
-    --secundaty-color: #B8D0EB;
+    --secundaty-color: #f77f00;
+
 }
 
 body{
@@ -42,6 +43,14 @@ body{
     background-size: cover;
 }
 
+.text-banner{
+    font-size: 3em;
+}
+
+/* span{
+    color: #f77f00;
+    text-align: right;
+} */
 
 /* Footer */
 footer{
