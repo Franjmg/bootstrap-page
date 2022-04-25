@@ -8,28 +8,28 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Omniplus</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- HEADER -->
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-warning" href="#">Navbar</a>
+        <div class="container">
+          <a class="navbar-brand" href="#">LIFE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link text-warning text-opacity-75active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning text-opacity-75" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning text-opacity-75" href="#">Products</a>
+                <a class="nav-link" href="#products">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning text-opacity-75">Contact</a>
+                <a class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -82,8 +82,8 @@
             </div>
         </section>
         <!-- AboutUs -->
-        <section class="section container" id="about">
-          <div class="card mb-3 h-80 mt-5 mx-auto bg-light" style="max-width: 540px;">
+        <section class="section container pt-5 pb-5 d-flex justify-content-center" id="about">
+          <div class="card bg-light" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="./media/img/user.jpg" class="img-fluid rounded-start" alt="...">
