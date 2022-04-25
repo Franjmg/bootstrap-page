@@ -49,19 +49,26 @@ img{
 }
 
 /* Home */
+
 .banner-image1{
     background-image: url(../media/img/home-1.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .banner-image2{
     background-image: url(../media/img/home-2.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .banner-image3{
     background-image: url(../media/img/home-3.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .text-banner{
